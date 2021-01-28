@@ -17,7 +17,7 @@ Correction of "How To Play"
             -Earth Tower: Deals more damage to poison type enemy, deals less damage to electric type enemy.
       5) You will lose the game if you run out of health.
  
-Detailed information about project is in the "Elemental Tower Defense Report.pdf" file.
+Detailed information about the project is in the "Elemental Tower Defense REPORT.pdf" file.
       
       
 NOTE: This project is not only written by myself, I gave credits to those who contributed this project in the classes they wrote.
