@@ -16,3 +16,7 @@ Correction of "How To Play"
             -Poison Tower: Deals more damage to fire type enemy, deals less damage to water type enemy.
             -Earth Tower: Deals more damage to poison type enemy, deals less damage to electric type enemy.
       5) You will lose the game if you run out of health.
+      
+      
+NOTE: This project is not only written by myself, I gave credits to those who contributed this project in the classes they wrote.
+NOTE: This project is written by using IntellIJ IDE and with Java 11.04
