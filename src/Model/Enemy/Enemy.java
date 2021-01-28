@@ -26,7 +26,7 @@ public class Enemy extends Rectangle {
      */
     public Enemy( int level )
     {
-        setSpeed( 50 + level );
+        setSpeed( 2 + level );
         setHealth( 15 + ( 5 * level ) );
         setSpawnLocation(35,71);
         this.level = level;
