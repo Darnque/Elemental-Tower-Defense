@@ -1,10 +1,12 @@
 # Elemental-Tower-Defense
+## Description
 Simple "Tower Defense" game created by using Java for CS102 Project.
 
+## How to Run
 You can try the game out by simply running the "Main.java" file that is in the "src" file.
 You may run the game buy clicking on "Elemental Tower Defense.jar" file (I did not have a chance to try this feature on other computers, it may not work).
 
-Correction of "How To Play"
+### How To Play
 	1) Select the tower you want to place by clicking the tower in from right side of the screen.
 	2) Place the tower to any green tile you want.
 	3) Killing enemies will make you gain gold to place another tower or upgrade the towers.
@@ -20,5 +22,5 @@ Correction of "How To Play"
 Detailed information about the project is in the "Elemental Tower Defense REPORT.pdf" file.
       
       
-NOTE: This project is not only written by myself, I gave credits to those who contributed this project in the classes they wrote.
-NOTE: This project is written by using IntellIJ IDE and with Java 11.04
+#### NOTE1: This project is not only written by myself, I gave credits to those who contributed this project in the classes they wrote.
+#### NOTE2: This project is written by using IntellIJ IDE and with Java 11.04
