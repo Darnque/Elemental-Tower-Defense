@@ -39,7 +39,7 @@ public class PlayMusic {
         if ( SettingsView.getMusicFlag() ) {
             try {
                 mainMenu = AudioSystem.getClip();
-                mainMenu.open(AudioSystem.getAudioInputStream(new File("main_menu_theme.wav")));
+                mainMenu.open(AudioSystem.getAudioInputStream(new File("sounds/main_menu_theme.wav")));
                 mainMenu.start();
             } catch (Exception e) {
                 e.printStackTrace(System.out);
@@ -63,9 +63,9 @@ public class PlayMusic {
                 battle = AudioSystem.getClip();
                 int a = (int) (Math.random() * 2);
                 if (a == 0) {
-                    battle.open(AudioSystem.getAudioInputStream(new File("battle_1.wav")));
+                    battle.open(AudioSystem.getAudioInputStream(new File("sounds/battle_1.wav")));
                 } else {
-                    battle.open(AudioSystem.getAudioInputStream(new File("battle_2.wav")));
+                    battle.open(AudioSystem.getAudioInputStream(new File("sounds/battle_2.wav")));
                 }
                 battle.start();
             } catch (Exception e) {
@@ -90,13 +90,13 @@ public class PlayMusic {
                 enemyDeath = AudioSystem.getClip();
                 int a = (int) (Math.random() * 4);
                 if (a == 0) {
-                    enemyDeath.open(AudioSystem.getAudioInputStream(new File("enemy_death_1.wav")));
+                    enemyDeath.open(AudioSystem.getAudioInputStream(new File("sounds/enemy_death_1.wav")));
                 } else if (a == 1) {
-                    enemyDeath.open(AudioSystem.getAudioInputStream(new File("enemy_death_2.wav")));
+                    enemyDeath.open(AudioSystem.getAudioInputStream(new File("sounds/enemy_death_2.wav")));
                 } else if (a == 2) {
-                    enemyDeath.open(AudioSystem.getAudioInputStream(new File("enemy_death_3.wav")));
+                    enemyDeath.open(AudioSystem.getAudioInputStream(new File("sounds/enemy_death_3.wav")));
                 } else {
-                    enemyDeath.open(AudioSystem.getAudioInputStream(new File("enemy_death_4.wav")));
+                    enemyDeath.open(AudioSystem.getAudioInputStream(new File("sounds/enemy_death_4.wav")));
                 }
                 enemyDeath.start();
             } catch (Exception e) {
@@ -112,7 +112,7 @@ public class PlayMusic {
         if ( SettingsView.getSoundFlag() ) {
             try {
                 waterTower = AudioSystem.getClip();
-                waterTower.open(AudioSystem.getAudioInputStream(new File("water_twr_attack.wav")));
+                waterTower.open(AudioSystem.getAudioInputStream(new File("sounds/water_twr_attack.wav")));
                 waterTower.start();
             } catch (Exception e) {
                 e.printStackTrace(System.out);
@@ -127,7 +127,7 @@ public class PlayMusic {
         if ( SettingsView.getSoundFlag() ) {
             try {
                 fireTower = AudioSystem.getClip();
-                fireTower.open(AudioSystem.getAudioInputStream(new File("fire_twr_attack.wav")));
+                fireTower.open(AudioSystem.getAudioInputStream(new File("sounds/fire_twr_attack.wav")));
                 fireTower.start();
             } catch (Exception e) {
                 e.printStackTrace(System.out);
@@ -142,7 +142,7 @@ public class PlayMusic {
         if (SettingsView.getSoundFlag()){
             try {
                 earthTower = AudioSystem.getClip();
-                earthTower.open(AudioSystem.getAudioInputStream(new File("earth_twr_attack.wav")));
+                earthTower.open(AudioSystem.getAudioInputStream(new File("sounds/earth_twr_attack.wav")));
                 earthTower.start();
             } catch (Exception e) {
                 e.printStackTrace(System.out);
@@ -157,7 +157,7 @@ public class PlayMusic {
         if ( SettingsView.getSoundFlag() ) {
             try {
                 poisonTower = AudioSystem.getClip();
-                poisonTower.open(AudioSystem.getAudioInputStream(new File("poison_twr_attack.wav")));
+                poisonTower.open(AudioSystem.getAudioInputStream(new File("sounds/poison_twr_attack.wav")));
                 poisonTower.start();
             } catch (Exception e) {
                 e.printStackTrace(System.out);
@@ -172,7 +172,7 @@ public class PlayMusic {
         if ( SettingsView.getSoundFlag() ) {
             try {
                 electricTower = AudioSystem.getClip();
-                electricTower.open(AudioSystem.getAudioInputStream(new File("electric_twr_attack.wav")));
+                electricTower.open(AudioSystem.getAudioInputStream(new File("sounds/electric_twr_attack.wav")));
                 electricTower.start();
             } catch (Exception e) {
                 e.printStackTrace(System.out);
@@ -186,7 +186,7 @@ public class PlayMusic {
     public void playGameOver() {
         try {
             gameOver = AudioSystem.getClip();
-            gameOver.open(AudioSystem.getAudioInputStream(new File("game_over.wav")));
+            gameOver.open(AudioSystem.getAudioInputStream(new File("sounds/game_over.wav")));
             gameOver.start();
         } catch (Exception e) {
             e.printStackTrace(System.out);
