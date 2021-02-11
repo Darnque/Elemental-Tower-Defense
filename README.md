@@ -23,4 +23,4 @@ Detailed information about the project is in the "Elemental Tower Defense REPORT
       
       
 #### NOTE1: This project is not only written by myself, I gave credits to those who contributed this project in the classes they wrote.
-#### NOTE2: This project is written by using IntellIJ IDE and with Java 11.04
+#### NOTE2: This project is written by using IntellIJ IDE and with Java 11.0.4
